@@ -9,18 +9,57 @@
         <div class="header">
            todos 
         </div>
-        <div class="taskbox1">
-            <ul>
-            <li><input type="checkbox" name="checkbox" value="box01">
-            <input type="text" name="task" id="task01" placeholder="What needs to be done?"><br></li>
-            <li><input type="checkbox" name="checkbox" value="box01">
-            <span>
-            <input type="text" name="task" id="task01" placeholder="What needs to be done?"></li>
-            </span></li>
-            
-            </ul>
-        </div> 
-        
+        <div class="taskbox">
+            <div class="tasktext-container">
+                <span class="scroll-container">
+                    <input type="checkbox" name="scroll" value="scval">
+                </span>
+                <span class="textbox">
+                    <input type="text" name="tasktext" id="textin" placeholder="What needs to be done?">
+                </span>
+            </div>
+            <div class="todo-container">
+                <ul class="tasks">
+                    <li>
+                        <span class="tickin">
+                            <input type="checkbox" name="todobox1" id="todo1">
+                        </span>
+                        <span class="todo">
+                            task 2
+                        </span>
+                        <span class="crossover">
+                            <input type="button" value="X">
+                        </span>    
+                    </li>
+                    <li>
+                        <span class="tickin">
+                            <input type="checkbox" name="todobox1" id="todo1">
+                        </span>
+                        <span class="todo">
+                            task 3
+                        </span>
+                        <span class="crossover">
+                            <input type="button" value="X">
+                        </span>    
+                    </li>
+                </ul>
+            </div>    
+            <div class="action-container">
+                <span class="counter">  
+                    <input type="button" value="1 item left">
+                </span>
+                <span class="view">
+                    <input type="button" value="All">
+                    <input type="button" value="Active">
+                    <input type="button" value="Completed">
+                </span>
+                <span class="action">  
+                    <input type="button" value="Clear Completed">
+                </span>
+            </div>
+        </div>
+        <div class="outline1"></div>
+        <div class="outline2"></div> 
     </body>
     </html> 
 
