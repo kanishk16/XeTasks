@@ -1,0 +1,16 @@
+body{
+    background-color:whitesmoke;
+}
+.header{
+    display: flex;
+    justify-content:center;
+    font-size: 50px;
+    color:aquamarine;
+}
+.taskbox1{
+    display: flex;
+    justify-content:center;
+    font-size: 50px;
+    color:white;
+    align-items: center;
+}
