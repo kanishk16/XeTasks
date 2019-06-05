@@ -1,16 +1,30 @@
 body{
     background-color:whitesmoke;
 }
+
 .header{
     display: flex;
     justify-content:center;
     font-size: 50px;
     color:aquamarine;
 }
-.taskbox1{
+.taskbox{
+    margin: auto;
+    width: 30%;
+    height: auto;
+    border: 1px solid lightgrey;
+    background-color: white;
+}
+
+.tasktext-container {
     display: flex;
-    justify-content:center;
-    font-size: 50px;
-    color:white;
-    align-items: center;
+}
+
+.tasktext-container .scroll-container{
+    flex-grow: 1;
+
+}
+.tasktext-container .textbox input[type="text"]{
+    flex-grow: 2;
+
 }
