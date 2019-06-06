@@ -8,23 +8,49 @@ body{
     font-size: 50px;
     color:aquamarine;
 }
+
 .taskbox{
+    display: flex;
+    flex-direction: column;
     margin: auto;
     width: 30%;
     height: auto;
     border: 1px solid lightgrey;
     background-color: white;
+    z-index: 1;
 }
 
-.tasktext-container {
-    display: flex;
+.taskboxstack{
+    margin: auto;
+    width: 30%;
+    height: auto;
+    border: 1px solid lightgrey;
+    background-color: white;
+    z-index: 0;
 }
 
-.tasktext-container .scroll-container{
-    flex-grow: 1;
+/* .tasktext-container  */
 
-}
 .tasktext-container .textbox input[type="text"]{
-    flex-grow: 2;
+    border: 0;
+    width: 89%;
 
+}
+
+.tasks{
+    list-style-type: none;
+}
+
+ul li{
+    display: flex;
+    border-top: 0.01em solid lightgray;
+    border-bottom: 0.01em solid lightgray;
+    list-style-position: inside;
+    margin-left: 0%;
+    /* width: 100%; */
+}
+
+.crossover{
+    display: flex;
+    flex-grow:  
 }
