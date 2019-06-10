@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+nav{
+    background-color: #00316b;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    width: 10em;    
+    text-align: center;
+    margin: 1em;
+}
+
+ul li a{
+    color: antiquewhite;
+    
+}
