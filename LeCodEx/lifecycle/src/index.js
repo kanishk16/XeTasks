@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Clock from './Clock';
 import * as serviceWorker from './serviceWorker';
+import ApiCall from './apiCall';
 
-ReactDOM.render(<Clock />, document.getElementById('root'));
+ReactDOM.render(<ApiCall/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
