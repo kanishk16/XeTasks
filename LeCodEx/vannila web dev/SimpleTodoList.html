@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>todo list</title>
+        <link rel="stylesheet" type="text/css" href="resources/styleit.css">
+
+    </head>
+    <body>
+        <div class="header">
+           todos 
+        </div>
+        <div class="taskbox">
+            <div class="tasktext-container">
+                <span class="scroll-container">
+                    <input type="checkbox" name="scroll" value="scval">
+                </span>
+                <span class="textbox">
+                    <input type="text" name="tasktext" id="textin" placeholder="What needs to be done?">
+                </span>
+            </div>
+            <div class="todo-container">
+                <ul class="tasks">
+                    <li>
+                        <span class="tickin">
+                            <input type="checkbox" name="todobox1">
+                        </span>
+                        <span class="todo">
+                            task 2
+                        </span>
+                        <span class="crossover">
+                            <input type="button" value="X" id="Cross">
+                        </span>    
+                    </li>
+                    <li>
+                        <span class="tickin">
+                            <input type="checkbox" name="todobox1">
+                        </span>
+                        <span class="todo">
+                            task 3
+                        </span>
+                        <span class="crossover">
+                            <input type="button" value="X" id="Cross">
+                        </span>    
+                    </li>
+                </ul>
+            </div>    
+            <div class="action-container">
+                <span class="counter">  
+                    <label for="counter">1 item left</label> 
+                </span>
+                <span class="view">
+                    <input type="button" value="All" id="Show All">
+                    <input type="button" value="Active" id="Show Active">
+                    <input type="button" value="Completed" id="Show Completed">
+                </span>
+                <span class="action">  
+                    <input type="button" value="Clear Completed" id="Remove Completed">
+                </span>
+            </div>
+        </div>
+        <div class="taskboxstack"></div>
+        <div class="taskboxstack"></div> 
+    </body>
+    </html> 
+
+
+       
